@@ -4,10 +4,10 @@ import os
 from twilio.rest import Client
 
 # Twilio Configuration
-account_sid = 'AC72412f3e10d993749cd4c8fed09025e4'
-auth_token = 'e2375855e1a98d245a7cf40b5447d765'
-twilio_phone_number = '+14153906775'
-your_phone_number = '+917701847323'
+account_sid = 'Your_Account_sid'
+auth_token = 'Your_Auth_Token'
+twilio_phone_number = 'Your_Twilio_PN'
+your_phone_number = 'Your_PN'
 
 client = Client(account_sid, auth_token)
 
